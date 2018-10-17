@@ -34,15 +34,20 @@ class Projects extends Component {
                   "url(https://i.ytimg.com/vi/ElGm_VUMAy4/maxresdefault.jpg) center / cover"
               }}
             />
-            <CardText>
-              <h4>This is my pokemon project</h4>
+            <CardText className="project-card-text">
+              <p>
+                This is a turn based battle game where one of the AI agents uses
+                a static decision tree to select the next best move and the
+                other agent uses genetic algorithms to constantly modify its own
+                decision tree over multiple iterations. After each iteration, it
+                seeks to improve its performance according a fitness function
+                built into it.
+              </p>
             </CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
+            <CardActions border class="project-card-actions">
+              <i class="fab fa-bitbucket" />
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="shared" />
-            </CardMenu>
+            <CardMenu style={{ color: "#fff" }} />
           </Card>
         </div>
       );

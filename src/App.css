@@ -125,3 +125,12 @@
   padding-right: 1em;
   padding-left: 2em;
 }
+
+.project-card-text p {
+  font-family: "K2D", sans-serif;
+  font: bold;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+}
