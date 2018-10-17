@@ -22,6 +22,7 @@ class Projects extends Component {
   render() {
     return (
       /*project 1 */
+
       <Grid>
         <Cell col={12}>
           <div className="projects-grid">
@@ -50,7 +51,7 @@ class Projects extends Component {
                   performance according a fitness function built into it.
                 </p>
               </CardText>
-              <CardActions border class="project-card-actions">
+              <CardActions border className="project-card-actions">
                 <p
                   style={{
                     fontSize: "20px",
@@ -168,7 +169,6 @@ class Projects extends Component {
                   </a>
                 </p>
               </CardActions>
-              <CardMenu style={{ color: "#fff" }} />
             </Card>
           </div>
         </Cell>

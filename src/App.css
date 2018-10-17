@@ -71,6 +71,7 @@
 
 .projects-grid {
   display: flex;
+  background-image: url("http://www.firewatchgame.com/screenshots/firewatch_150305_01.png");
 }
 
 .contact-body {
