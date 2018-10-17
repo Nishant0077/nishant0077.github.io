@@ -23,25 +23,28 @@ class Projects extends Component {
     /*an if statement for each project */
     if (this.state.activeTab === 0) {
       return (
-        <Card shadow={5} style={{ width: "750px", margin: "auto" }}>
-          <CardTitle
-            style={{
-              color: "white",
-              height: "250px",
-              background:
-                "url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png) center / cover"
-            }}
-          />
-          <CardText>
-            <h2>This is my pokemon project</h2>
-          </CardText>
-          <CardActions border>
-            <Button colored>Github</Button>
-          </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="shared" />
-          </CardMenu>
-        </Card>
+        <div className="projects-grid">
+          {/*project 1 */}
+          <Card shadow={5} style={{ width: "450px", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "white",
+                height: "150px",
+                background:
+                  "url(https://i.ytimg.com/vi/ElGm_VUMAy4/maxresdefault.jpg) center / cover"
+              }}
+            />
+            <CardText>
+              <h4>This is my pokemon project</h4>
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="shared" />
+            </CardMenu>
+          </Card>
+        </div>
       );
     } else if (this.state.activeTab === 1) {
       return (
@@ -64,13 +67,12 @@ class Projects extends Component {
           <Tab>Pokemon Genetic algorithm</Tab>
           <Tab>Unity Handwriting recognition</Tab>
         </Tabs>
-        <section className="projects-grid">
-          <Grid className="projects-grid">
-            <Cell col={12}>
-              <div className="content">{this.toggleCategories()}</div>
-            </Cell>
-          </Grid>
-        </section>
+
+        <Grid>
+          <Cell col={12}>
+            <div className="content">{this.toggleCategories()}</div>
+          </Cell>
+        </Grid>
       </div>
     );
   }
