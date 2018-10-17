@@ -27,16 +27,7 @@ class App extends Component {
               </Link>
             </Navigation>
           </Header>
-          <Drawer title="Quick Links" style={{ fontFamily: "K2D" }}>
-            <Navigation>
-              <Link to="/projects">
-                <h4 style={{ fontFamily: "K2D" }}>Projects</h4>
-              </Link>
-              <Link to="/contact">
-                <h4 style={{ fontFamily: "K2D" }}>Contact</h4>
-              </Link>
-            </Navigation>
-          </Drawer>
+
           <Content>
             <div className="page-content" />
             <Main />
