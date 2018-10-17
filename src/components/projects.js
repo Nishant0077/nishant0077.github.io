@@ -46,7 +46,23 @@ class Projects extends Component {
             </p>
           </CardText>
           <CardActions border class="project-card-actions">
-            <i class="fab fa-bitbucket" aria-hidden="true" />
+            <p
+              style={{
+                fontSize: "20px",
+                paddingLeft: "1em",
+                paddingBottom: "1em"
+              }}
+            >
+              <hr />
+              <a
+                style={{ color: "#2684FF" }}
+                href="https://bitbucket.org/nishant0077/pokemon-battle-ai-using-genetic-algorithms"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i class="fab fa-bitbucket" aria-hidden="true" />
+              </a>
+            </p>
           </CardActions>
           <CardMenu style={{ color: "#fff" }} />
         </Card>
