@@ -9,12 +9,13 @@ class Landing extends Component {
           <Cell col={12}>
             <div className="banner-text" style={{ paddingTop: "5em" }}>
               <h1>Nishant Gupta</h1>
+
               <p
                 style={{
                   textAlign: "justify",
                   textJustify: "inter-word",
-                  lineHeight: "30px",
-                  fontSize: "25px"
+                  lineHeight: "40px",
+                  fontSize: "30px"
                 }}
               >
                 Hello there, welcome to my personal website. If you are here,
@@ -31,11 +32,13 @@ class Landing extends Component {
                 read this, I am available for you.
               </p>
 
+              {/*
               <p style={{ fontSize: "30px", lineHeight: "50px" }}>
                 C++ | C# | Spring Boot | HTML5 | Angular 4| JavaScript | C |
                 HTML | MySQL | PostgreSQL | AngularJS | Angular Material | Git |
                 JIRA | React.js | MongoDB | Unity 3D | Unreal Engine{" "}
               </p>
+                */}
 
               <div className="social-links">
                 {/*Linked in */}
