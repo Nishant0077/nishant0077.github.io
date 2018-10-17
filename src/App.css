@@ -129,8 +129,8 @@
 .project-card-text p {
   font-family: "K2D", sans-serif;
   font: bold;
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 25px;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -139,21 +139,4 @@
   font-size: 70px;
   justify-content: center;
   padding-left: 2.5em;
-}
-
-.projects-grid {
-}
-
-.category-tabs {
-  background: #009fff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ec2f4b,
-    #009fff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ec2f4b,
-    #009fff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
