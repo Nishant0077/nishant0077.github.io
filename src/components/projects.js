@@ -34,7 +34,7 @@ class Projects extends Component {
                   "url(https://i.ytimg.com/vi/ElGm_VUMAy4/maxresdefault.jpg) center / cover"
               }}
             />
-            <CardText className="project-card-text">
+            <CardText className="project-card-text" style={{ height: "400px" }}>
               <p>
                 This is a turn based battle game where one of the AI agents uses
                 a static decision tree to select the next best move and the
@@ -45,7 +45,7 @@ class Projects extends Component {
               </p>
             </CardText>
             <CardActions border class="project-card-actions">
-              <i class="fab fa-bitbucket" />
+              <i class="fab fa-bitbucket" aria-hidden="true" />
             </CardActions>
             <CardMenu style={{ color: "#fff" }} />
           </Card>
@@ -69,6 +69,7 @@ class Projects extends Component {
           ripple
         >
           {/*a tab for each project */}
+
           <Tab>Pokemon Genetic algorithm</Tab>
           <Tab>Unity Handwriting recognition</Tab>
         </Tabs>
