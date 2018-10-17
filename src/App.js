@@ -13,22 +13,28 @@ class App extends Component {
             className="header-color"
             title={
               <Link style={{ textDecoration: "none", color: "white" }} to="/">
-                My Portfolio
+                <h3 style={{ fontFamily: "K2D" }}>My Portfolio</h3>
               </Link>
             }
             scroll
           >
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/projects">
+                <h4 style={{ fontFamily: "K2D" }}>Projects</h4>
+              </Link>
+              <Link to="/contact">
+                <h4 style={{ fontFamily: "K2D" }}>Contact</h4>
+              </Link>
             </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer title="Quick Links" style={{ fontFamily: "K2D" }}>
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/projects">
+                <h4 style={{ fontFamily: "K2D" }}>Projects</h4>
+              </Link>
+              <Link to="/contact">
+                <h4 style={{ fontFamily: "K2D" }}>Contact</h4>
+              </Link>
             </Navigation>
           </Drawer>
           <Content>
